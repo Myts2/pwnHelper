@@ -1,4 +1,4 @@
-Usage:pwnHelper.py <binary>
+Usage:pwnHelper.py binary-name
 
 Use Ctrl-C to finish record and name the function
 
