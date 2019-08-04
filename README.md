@@ -1,7 +1,11 @@
 Usage:pwnHelper.py <binary>
+
 Use Ctrl-C to finish record and name the function
+
 If you input a var, you can input the data with defined var name
+
 eg: 111#index
+
 it can create a function var named `index`
 
 And you can find solve.*.py in current folder
