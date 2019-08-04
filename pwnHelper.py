@@ -1,6 +1,21 @@
+'''
+Usage:pwnHelper.py <binary>
+Use Ctrl-C to finish record and name the function
+If you input a var, you can input the data with defined var name
+eg: 111#index
+it can create a function var named `index`
+
+And you can find solve.*.py in current folder
+
+Don't use Ctrl-C to close the program, just close the terminal window. #TODO
+
+Have Fun!
+'''
+
+
 import select
 from pwn import *
-from sys import argv,stdin,stdout
+from sys import argv,stdin
 import time
 
 context.log_level = "debug"
